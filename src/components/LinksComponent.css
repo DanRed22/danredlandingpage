@@ -1,0 +1,109 @@
+
+button{
+    border-radius: 20px;
+}
+@media screen and (max-width: 600px){/*for mobile*/
+    .LinksComponentContainer{
+        font-size: 3vw;
+    }
+    button{
+        width: 10em;
+        height: 4em;
+        margin-top: 10%;
+        margin-bottom: 5%;
+        transition: 0.4s all ease-in-out;
+    }
+
+    .LinksComponentContainer{
+        display: flex;
+        flex-direction: column;
+        vertical-align: center;
+        justify-content: center;
+    
+    }
+}
+@media screen and (min-width: 601px){ /*for desktop*/
+    .LinksComponentContainer{
+        font-size: 2vw;
+    }
+    button{
+        width: 15vw;
+        height: 6vh;
+        margin-bottom: 5%;
+        margin-right: 1vw;
+        transition:0.4s all ease-in-out;
+        
+    }
+
+    .LinksComponentContainer{
+        display: flex;
+        flex-direction:row;
+        vertical-align: center;
+        justify-content: center;
+    
+    }
+
+}
+
+@media screen and (min-width: 1366px){/*Wider Screens*/
+    .LinksComponentContainer{
+        font-size: 1vw;
+    }
+}
+
+.youtube-button{
+    border-color: red;
+    background-color: rgba(255, 255, 255, 0.3);
+    color: red;
+    text-align: center;
+
+}
+
+.youtube-button:hover {
+    background-color: white;
+    box-shadow: 0 5px 15px rgba(255,1,1,0.8);
+}
+
+.spotify-button{
+    border-color: rgb(37,216,101);
+    background-color: rgba(0, 0, 0, 0.3);
+    color: rgb(37,216,101);
+    text-align: center;
+}
+
+.spotify-button:hover {
+    background-color: black;
+    box-shadow: 0 5px 15px rgba(37,216,101,0.8);
+}
+
+.instagram-button{
+    border-top-color: rgb(246,1,206);
+    border-bottom-color:rgb(246,188,0);
+    border-left-color: rgb(245,46,30);
+    border-right-color: rgb(247,4,131);
+    background-color: rgba(0,0,0, 0.3);
+    color: white;
+    text-align: center;
+}
+
+.instagram-button:hover {
+    border-color: white;
+    background-color: rgb(246,188,0);
+    color: white;
+    box-shadow: 0 5px 15px rgba(246,3,132,0.8);
+}
+
+.tiktok-button{
+    background-color: rgba(0, 0, 0, 0.2);
+    color: white;
+    text-align: center;
+    border-top-color: rgb(11,182,190);
+    border-left-color: rgb(11,182,190);
+    border-right-color: rgb(230,42,93);
+    border-bottom-color: rgb(230,42,93);
+}
+
+.tiktok-button:hover {
+    background-color: black;
+    box-shadow: 0 5px 15px rgba(230,42,93,0.8);
+}

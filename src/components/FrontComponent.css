@@ -1,0 +1,127 @@
+.artistName{
+    display:flex;
+    text-align: center;
+    color: white;
+}
+.frontContainer{
+   background-image: url('../background.png');
+   background-position: center;
+   background-position-y: 85%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    display: flex;
+    /*padding-bottom: 25%;*/
+}
+
+.banner{
+    margin-top: 5%;
+    border-radius: 20px;
+    background-color: rgba(238, 233, 233, 0.4);
+    border: rgba(255,255,255, 0.4) 1px solid;
+    margin-right: 1vw;
+    margin-left: 1vw;
+}
+
+.banner a{
+   text-decoration: none;
+}
+
+@media screen and (max-width: 600px){ /*for mobile*/
+    .artistName{
+        font-size: 10vw;
+    }
+    .profilePic{
+        width: 35vw;
+    }
+
+    .frontContainer{
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding-top: 1vh;   
+    }
+    .arrowdown{
+        width: 5vw;
+        margin: 0 auto;
+        margin-top: 10%;
+    }
+
+    .profileContainer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .banner{
+        margin-bottom: 2vh;
+        /*width: 100%;*/
+        text-align: center;
+        justify-content: center;
+        padding-left: 1vw;
+        padding-right: 1vw;
+    }
+}
+
+@media screen and (min-width: 601px){ /*for desktop*/
+    .artistName{
+        font-size: 5vw;
+    }
+
+    .profilePic{
+        width: 10vw;
+    }
+
+    .profileContainer{
+        width: 40vw;
+        display: flex;
+        justify-content:flex-start;
+        align-items:flex-start;
+        flex-direction: column;
+        margin-left: -25vw;
+}
+
+    .frontContainer{
+        flex-direction: column;
+        align-items: center;
+        padding-top: 1%;
+        height: 100%;
+    }
+
+    .arrowdown{
+        width: 2vw;
+        
+    }
+
+    .banner{
+        display:flex;
+        height: 3vh;
+        margin-bottom: 2vh;
+        /*width: 100%;*/
+        padding-left: 1vw;
+        padding-right: 1vw;
+        text-align: center;
+        justify-content: center;
+    }
+
+}
+
+.profilePic{
+    border-radius: 50%;
+}
+
+.bounce-out-down {
+    animation: bounce-out-down 2s ease infinite;
+  }
+  @keyframes bounce-out-down {
+    0% { transform: translateY(0); }
+    20% {
+      opacity: 1;
+      transform: translateY(-1vh);
+    }
+    100% {
+      opacity: 0;
+      transform: translateY(1vh);
+    }
+  }
+
