@@ -1,5 +1,11 @@
-# Getting Started with Create React App
+# HOW TO RUN THIS?
 
+1. npm create-react-app <APP NAME>
+2. npm install react-bootstrap bootstrap
+3. copy public and src files to new app
+4. npm start
+
+   ---------------------------------------
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
