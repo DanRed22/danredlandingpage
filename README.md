@@ -5,6 +5,13 @@
 3. copy public and src files to new app
 4. npm start
 
+#About
+This small project was made as a sample artist page for DANRED / Angelou Sereño. Made using React.
+
+
+
+
+
    ---------------------------------------
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
