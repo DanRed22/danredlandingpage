@@ -1,9 +1,7 @@
 # HOW TO RUN THIS?
 
-1. npm create-react-app <APP NAME>
-2. npm install react-bootstrap bootstrap
-3. copy public and src files to new app
-4. npm start
+1. npm install
+2. npm start
 
 #About
 This small project was made as a sample artist page for DANRED / Angelou Sereño. Made using React.
